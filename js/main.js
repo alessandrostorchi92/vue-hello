@@ -6,6 +6,7 @@
 // 2) Definisco l'elemento HTML dentro il quale Vue verrà utilizzato (<div id="app"></div>)
 // 3) Salvo in una variabile locale la funzione createApp(), presa dalla variabile globale Vue
 // 4) Attivo Vue sull'elemento con id app
+// 5) 
 
 
 "use script"
@@ -14,10 +15,11 @@ const app = Vue.createApp({
     data() {
 
         return {
-            
-        }
+            messaggio: "Benvenuto su Vue"
+        };
 
     }
-})
+});
 
-app.mount("#id")
+
+app.mount("#app")
